@@ -16,7 +16,7 @@ Start the service:
 docker-compose up -d
 ```
 
-This starts the web service at 'localhost:5000' and some jupyter service at 'localhost:8888' (to get the exact location enter `docker-compose logs app` and search the logs for the jupyter url).
+This starts the web service at `localhost:5000` and some jupyter service at `localhost:8888` (to get the exact location enter `docker-compose logs app` and search the logs for the jupyter url).
 
 Apply object detection on a random cat:
 [http://localhost:5000/detect_objects](http://localhost:5000/detect_objects)
