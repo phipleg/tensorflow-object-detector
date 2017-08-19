@@ -1,0 +1,5 @@
+#!/bin/bash
+
+pushd /app
+exec jupyter notebook --ip=0.0.0.0 --allow-root
+popd
